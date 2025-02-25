@@ -6,7 +6,7 @@
 - Fun side project for myself
 
 ## Approach
-I will make the website using ____
+I will make the website using vue.js
 
 ## Design
 I will be designing the webiste mainly using figma. 
