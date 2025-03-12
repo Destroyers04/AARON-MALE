@@ -1,13 +1,24 @@
-# My Website
+# aaron-male
 
-## My Goal
-- Create a personal website for myself  
-- Showcase my portfolio
-- Fun side project for myself
-- Showcase it to friends and such
+## Project setup
+```
+npm install
+```
 
-## Approach
-I will make the website using vue.js
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Design
-I will be designing the webiste mainly using figma. 
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
