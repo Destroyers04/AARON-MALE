@@ -11,3 +11,4 @@ I will make the website using vue.js
 
 ## Design
 I will be designing the webiste mainly using figma. 
+https://www.figma.com/design/NtYiOLNaSWdFTb7fnhiV8R/MyWebsite-Mockup?m=auto&t=Hd4kth1PqJ7Qqcqo-6
