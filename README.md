@@ -13,7 +13,7 @@ I will make the website using Vue.js
 
 ## Design
 
-I will be designing the website mainly using Figma.
+I will be designing the website mainly using Figma. 
 https://www.figma.com/design/NtYiOLNaSWdFTb7fnhiV8R/MyWebsite-Mockup?m=auto&t=Hd4kth1PqJ7Qqcqo-6
 
 ## Project setup

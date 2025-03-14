@@ -1,26 +1,15 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
+<script setup>
+import WebsiteFooter from "@/components/WebsiteFooter.vue"; // My websites footer
+import WebsiteHeader from "@/components/WebsiteHeader.vue"; //my websites header
+import WebsiteBackground from "@/components/WebsiteBackground.vue"; // Background for website
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+import { RouterView } from "vue-router";
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<template>
+  <WebsiteBackground>
+    <WebsiteHeader />
+    <RouterView />
+    <WebsiteFooter />
+  </WebsiteBackground>
+</template>
