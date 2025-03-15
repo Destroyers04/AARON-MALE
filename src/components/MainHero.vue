@@ -1,73 +1,91 @@
-<script setup></script>
 <template>
   <div
-    class="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16"
+    class="w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start"
   >
     <!-- Profile image -->
-    <div class="w-full md:w-1/2 flex">
-      <img src="@/assets/img/ProfilePicture.png" alt="Picture of Aaron" />
+    <div class="md:w-1/2 flex mx-8 justify-center">
+      <img
+        src="@/assets/img/ProfilePicture.png"
+        alt="Picture of Aaron"
+        class="object-cover w-1/2 md:w-auto max-w-full md:max-w-md"
+      />
     </div>
 
     <!-- Text content Title, Bio, Activity status -->
-    <div class="w-full md:w-1/2 pt-24">
-      <h1 class="text-7xl font-title font-bold text-[#0A2463] tracking-wide">
-        AARON MALE
-      </h1>
-      <p class="font-body font-light mt-2 text-black/50">
-        Developer & Designer based in Bergen, Norway
-      </p>
+    <div class="flex flex-col md:w-1/2 mx-8">
+      <div class="flex-1 mt-12">
+        <h1
+          class="md:text-7xl text-4xl font-title font-bold text-[#0A2463] tracking-wide text-center md:text-left"
+        >
+          AARON MALE
+        </h1>
+        <p
+          class="md:text-xl text-m font-body font-light mt-2 text-black/50 text-center md:text-left"
+        >
+          Developer & Designer based in Bergen, Norway
+        </p>
 
-      <p class="font-body text-black mt-12">
-        Aaron Male is a bachelor graduate from the University of Bergen. He is
-        currently working on projects he finds engaging while developing his
-        programming skills simultaneously. Aaron has experience with UX/UI
-        design, machine learning, and Python, but is currently expanding his
-        knowledge by learning HTML and related technologies. This website serves
-        as a platform where he can share his projects with friends and others
-        interested in his work.
-      </p>
-      <!-- Activity status section still under development -->
-      <!-- <div class="mt-10 pt-5">
-        <p class="font-body text-black mt-8">Activity status:</p>
-        <div class="flex items-center gap-6 mt-3">
-          <div class="flex items-center gap-2">
+        <p
+          class="md:text-xl text-m font-body text-black mt-12 overflow-hidden text-center md:text-left"
+        >
+          Aaron Male is a bachelor graduate from the University of Bergen. He is
+          currently working on projects he finds engaging while developing his
+          programming skills simultaneously. Aaron has experience with UX/UI
+          design, machine learning, and Python, but is currently expanding his
+          knowledge by learning HTML and related technologies. This website
+          serves as a platform where he can share his projects with friends and
+          others interested in his work.
+        </p>
+      </div>
+      <!-- Activity status section still under development, unsure how to fetch data from discord atm -->
+      <div class="flex flex-col flex-1 mt-12 gap-4 mx-auto md:mx-0">
+        <div class="">
+          <h1 class="text-xl font-title font-bold text-[#0A2463] tracking-wide">
+            Activity Status:
+          </h1>
+        </div>
+        <div class="flex flex-row gap-4">
+          <div class="mx-4">
             <img
-              src="../assets/img/AM_Logo.png"
-              alt="Headphones"
-              class="w-8 h-8"
+              src="@/assets/img/am-logo-white.svg"
+              alt="logo"
+              class="size-12"
             />
-            <div>
-              <p class="font-body text-black mt-8">Listening to music</p>
-              <p class="font-body text-black mt-8">Time Elapsed: 04:32</p>
-            </div>
           </div>
-          <div class="flex items-center gap-2">
-            <p class="font-body text-black mt-8">Someone like you</p>
+          <div class="font-body text-black">
+            <p>Currently offline</p>
+            <p>Blank</p>
+          </div>
+          <div class="mx-8">
             <img
-              src="../assets/img/AM_Logo.png"
-              alt="Album"
-              class="w-10 h-10"
+              src="@/assets/img/am-logo-blue.svg"
+              alt="logo"
+              class="size-12"
             />
           </div>
         </div>
-      </div> -->
-      <!-- Pulsing Down Arrow -->
-      <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#0A2463"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="animate-bounce"
-        >
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
+        <div class="font-body text-black flex gap-24">
+          <p>time elapsed: 00:00</p>
+          <p>Probably sleeping</p>
+        </div>
       </div>
     </div>
+  </div>
+  <!-- Pulsing Down Arrow -->
+  <div class="flex justify-center w-full mt-12">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40"
+      height="40"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#0A2463"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="animate-bounce-pulse"
+    >
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
   </div>
 </template>

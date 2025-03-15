@@ -8,10 +8,9 @@
 .texture-overlay {
   position: relative;
 }
-
 .texture-overlay::before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -28,7 +27,6 @@
   pointer-events: none;
   z-index: 1;
 }
-
 .texture-overlay > * {
   position: relative;
   z-index: 2;

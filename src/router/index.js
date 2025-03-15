@@ -13,7 +13,7 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/:catchAll(.*)",
+      path: "/:pathMatch(.*)*",
       name: "not-found",
       component: NotFoundView,
     },

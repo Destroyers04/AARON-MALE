@@ -1,1 +1,20 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="/DefaultLogo.png"/><title>aaron-male</title><script defer="defer" src="/js/chunk-vendors.e4fe77a4.js"></script><script defer="defer" src="/js/app.1023a86b.js"></script><link href="/css/app.a747804b.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but aaron-male doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!doctype html><html lang=""><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="/default-logo.svg"/><title>aaron-male</title><script>// This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct URL and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to reload the page.
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);</script><script defer="defer" src="/js/chunk-vendors.831af54e.js"></script><script defer="defer" src="/js/app.a2c3175f.js"></script><link href="/css/app.00852096.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but aaron-male doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>

@@ -38,7 +38,7 @@ const toHome = async () => {
         <div class="flex justify-center">
           <router-link to="/">
             <img
-              src="../assets/img/AM_Logo.png"
+              src="../assets/img/am-logo-blue.svg"
               alt="Logo"
               class="w-16 cursor-pointer"
               @click.prevent="toHome"

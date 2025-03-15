@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Kayla Bot",
-      "logo": "/img/KaylaBotLogo.png",
+      "logo": "kayla-bot-logo.png",
       "info": "Discord bot developed in Python",
       "description": "Kayla Bot is a versatile Discord bot I developed using Python as one of my first personal programming projects.",
       "link": "https://github.com/Destroyers04/KaylaBot"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Machine Learning project ",
-      "logo": "/img/DefaultLogo.png",
+      "logo": "am-logo-blue.svg",
       "info": "Jupyter notebook containing Python code.",
       "description": "In this collaborative group project we worked with a complex dataset where we defined the prediction objectives and analysis approach ourselves.",
       "link": "https://github.com/Destroyers04/Info284_Project"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Vue Intro Project",
-      "logo": "/img/DefaultLogo.png",
+      "logo": "am-logo-blue.svg",
       "info": "Website created with Vue.js",
       "description": "In this Vue project, I learned the basics and functionalities of Vue.js. The project features components, reactive data, Vue Router, form handling, and API integration through a job board application. ",
       "link": "https://github.com/Destroyers04/vueIntroProject"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Portfolio Website",
-      "logo": "/img/DefaultLogo.png",
+      "logo": "am-logo-blue.svg",
       "info": "Portfolio created with Vue.js",
       "description": "In this Vue project, I created a fully functional portfolio website, using Vue.js and Tailwind CSS. The project began with a design phase in Figma where I created the initial mockups and UI components before implementing them with code.",
       "link": "https://github.com/Destroyers04/AARON-MALE"
