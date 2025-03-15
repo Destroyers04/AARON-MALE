@@ -21,7 +21,7 @@ const getImagePath = (imageName) => {
 <template>
   <!-- Customizing layout of listing -->
   <div
-    class="w-full max-w-6xl h-auto min-h-[350px] md:h-[400px] mx-auto bg-[#F8E3D3] rounded-2xl shadow-xl overflow-hidden"
+    class="w-full max-w-6xl h-auto min-h-[350px] md:h-[400px] mx-auto bg-[#F8E3D3] rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:scale-[1.01] hover:-translate-y-1 hover:shadow-2xl"
   >
     <div class="flex flex-col md:flex-row items-center md:items-start h-full">
       <!-- Logo -->
