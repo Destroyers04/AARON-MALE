@@ -52,9 +52,7 @@
         </div>
       </div> -->
       <!-- Pulsing Down Arrow -->
-      <div
-        class="absolute bottom-0 left-1/2 transform -translate-x-1/2 cursor-pointer"
-      >
+      <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
