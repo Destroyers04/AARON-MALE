@@ -9,7 +9,7 @@
 
 ## Approach
 
-I will make the website using Vue.js
+I made the website using Vue.js and Tailwind css, i deployed the website using github pages.
 
 ## Design
 
