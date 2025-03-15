@@ -44,18 +44,18 @@ const toHome = async () => {
             @click.prevent="toHome"
           />
         </router-link>
-        
+
         <!-- Contact info -->
         <div class="flex items-center gap-3">
           <img src="../assets/img/Phone.svg" alt="PhoneIcon" class="w-6 h-6" />
           <p class="text-sm text-gray-700 font-body">+47 97 91 2321</p>
         </div>
-        
+
         <div class="flex items-center gap-3">
           <img src="../assets/img/Mail.svg" alt="MailIcon" class="w-6 h-6" />
           <p class="text-sm text-gray-700 font-body">aaronmale429@gmail.com</p>
         </div>
-        
+
         <!-- Copyright -->
         <p class="text-sm text-gray-600 font-body mt-4">© 2025 Aaron Male</p>
       </div>
@@ -65,7 +65,11 @@ const toHome = async () => {
         <!-- First row: Images -->
         <div class="grid grid-cols-3 items-center">
           <div class="flex justify-center">
-            <img src="../assets/img/Phone.svg" alt="PhoneIcon" class="w-8 h-8" />
+            <img
+              src="../assets/img/Phone.svg"
+              alt="PhoneIcon"
+              class="w-8 h-8"
+            />
           </div>
           <!-- Makes it so that when you click the logo it takes you back to the top of the page -->
           <div class="flex justify-center">
@@ -82,20 +86,22 @@ const toHome = async () => {
             <img src="../assets/img/Mail.svg" alt="MailIcon" class="w-8 h-8" />
           </div>
         </div>
-        
+
         <!-- Second row: Text -->
         <div class="grid grid-cols-3 gap-4 mb-4">
           <div class="text-center">
-            <p class="text-sm text-gray-700 font-body">+47 97 91 2321</p>
+            <p class="text-sm text-gray-700 font-body">+47 97 91 23 21</p>
           </div>
           <div class="text-center">
             <!-- Empty middle cell in second row -->
           </div>
           <div class="text-center">
-            <p class="text-sm text-gray-700 font-body">aaronmale429@gmail.com</p>
+            <p class="text-sm text-gray-700 font-body">
+              aaronmale429@gmail.com
+            </p>
           </div>
         </div>
-        
+
         <!-- Third row: Copyright -->
         <div class="grid grid-cols-3 gap-4 mt-6">
           <div></div>
