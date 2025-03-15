@@ -13,7 +13,7 @@
 
     <!-- Text content Title, Bio, Activity status -->
     <div class="flex flex-col md:w-1/2 mx-8">
-      <div class="flex-1 mt-12">
+      <div class="flex-1 mt-12 md:mt-28">
         <h1
           class="md:text-7xl text-4xl font-title font-bold text-[#0A2463] tracking-wide text-center md:text-left"
         >
@@ -38,7 +38,7 @@
         </p>
       </div>
       <!-- Activity status section still under development, unsure how to fetch data from discord atm -->
-      <div class="flex flex-col flex-1 mt-12 gap-4 mx-auto md:mx-0">
+      <!-- <div class="flex flex-col flex-1 mt-12 gap-4 mx-auto md:mx-0">
         <div class="">
           <h1 class="text-xl font-title font-bold text-[#0A2463] tracking-wide">
             Activity Status:
@@ -68,7 +68,7 @@
           <p>time elapsed: 00:00</p>
           <p>Probably sleeping</p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <!-- Pulsing Down Arrow -->
