@@ -16,6 +16,7 @@ I made the website using Vue.js and Tailwind css, i deployed the website using g
 I will be designing the website mainly using Figma. 
 https://www.figma.com/design/NtYiOLNaSWdFTb7fnhiV8R/MyWebsite-Mockup?m=auto&t=Hd4kth1PqJ7Qqcqo-6
 
+Logo and image used in hero were drawn by Sigurd Vestavik
 ## Project setup
 
 ```
