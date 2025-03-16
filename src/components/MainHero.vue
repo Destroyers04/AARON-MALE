@@ -5,9 +5,9 @@
     <!-- Profile image -->
     <div class="md:w-1/2 flex mx-8 justify-center">
       <img
-        src="@/assets/img/ProfilePicture.png"
+        src="@/assets/img/ProfilePicture.svg"
         alt="Picture of Aaron"
-        class="object-cover w-1/2 md:w-auto max-w-full md:max-w-md"
+        class="object-cover w-1/2 md:w-auto max-w-full md:max-w-md pt-4"
       />
     </div>
 
