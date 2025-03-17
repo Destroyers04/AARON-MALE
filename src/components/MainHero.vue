@@ -28,7 +28,7 @@
         <p
           class="md:text-xl text-m font-body text-black mt-12 overflow-hidden text-center md:text-left"
         >
-          Aaron Male is a bachelor graduate from the University of Bergen. He is
+          Aaron Male is a bachelor student at the University of Bergen. He is
           currently working on projects he finds engaging while developing his
           programming skills simultaneously. Aaron has experience with UX/UI
           design, machine learning, and Python, but is currently expanding his
