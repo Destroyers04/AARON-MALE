@@ -31,6 +31,14 @@
       "info": "Portfolio created with Vue.js",
       "description": "In this Vue project, I created a fully functional portfolio website, using Vue.js and Tailwind CSS. The project began with a design phase in Figma where I created the initial mockups and UI components before implementing them with code.",
       "link": "https://github.com/Destroyers04/AARON-MALE"
+    },
+    {
+      "id": 5,
+      "name": "ASP.NET Core MVC Intro Project",
+      "logo": "am-logo-blue.svg",
+      "info": "Web app created with ASP.NET Core MVC",
+      "description": "A learning project following the How to Build an ASP.NET Core MVC Web App Tutorial to understand the fundamentals of building web applications with ASP.NET Core.",
+      "link": "https://github.com/Destroyers04/ASP.NET-MVC-Web-App-"
     }
   ]
 }
